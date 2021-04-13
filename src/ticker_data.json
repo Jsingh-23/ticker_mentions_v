@@ -1,0 +1,2020 @@
+{
+"tickers": [
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Investing"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Investing"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Investing"
+},
+{
+"name": "MSFT",
+"mentions": 1,
+"time_period": "month",
+"subreddit": "Investing"
+},
+{
+"name": "MSFT",
+"mentions": 36,
+"time_period": "year",
+"subreddit": "Investing"
+},
+{
+"name": "MSFT",
+"mentions": 70,
+"time_period": "all",
+"subreddit": "Investing"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Investing"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Investing"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Investing"
+},
+{
+"name": "PLTR",
+"mentions": 1,
+"time_period": "month",
+"subreddit": "Investing"
+},
+{
+"name": "PLTR",
+"mentions": 25,
+"time_period": "year",
+"subreddit": "Investing"
+},
+{
+"name": "PLTR",
+"mentions": 25,
+"time_period": "all",
+"subreddit": "Investing"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Investing"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Investing"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Investing"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Investing"
+},
+{
+"name": "TSLA",
+"mentions": 71,
+"time_period": "year",
+"subreddit": "Investing"
+},
+{
+"name": "TSLA",
+"mentions": 78,
+"time_period": "all",
+"subreddit": "Investing"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Investing"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Investing"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Investing"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Investing"
+},
+{
+"name": "AAPL",
+"mentions": 41,
+"time_period": "year",
+"subreddit": "Investing"
+},
+{
+"name": "AAPL",
+"mentions": 68,
+"time_period": "all",
+"subreddit": "Investing"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Investing"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Investing"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Investing"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Investing"
+},
+{
+"name": "TWTR",
+"mentions": 5,
+"time_period": "year",
+"subreddit": "Investing"
+},
+{
+"name": "TWTR",
+"mentions": 87,
+"time_period": "all",
+"subreddit": "Investing"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Investing"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Investing"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Investing"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Investing"
+},
+{
+"name": "NFLX",
+"mentions": 9,
+"time_period": "year",
+"subreddit": "Investing"
+},
+{
+"name": "NFLX",
+"mentions": 83,
+"time_period": "all",
+"subreddit": "Investing"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Investing"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Investing"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Investing"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Investing"
+},
+{
+"name": "BABA",
+"mentions": 32,
+"time_period": "year",
+"subreddit": "Investing"
+},
+{
+"name": "BABA",
+"mentions": 46,
+"time_period": "all",
+"subreddit": "Investing"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Investing"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Investing"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Investing"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Investing"
+},
+{
+"name": "DIS",
+"mentions": 12,
+"time_period": "year",
+"subreddit": "Investing"
+},
+{
+"name": "DIS",
+"mentions": 56,
+"time_period": "all",
+"subreddit": "Investing"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "MSFT",
+"mentions": 1,
+"time_period": "year",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "MSFT",
+"mentions": 4,
+"time_period": "all",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "year",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "all",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "TSLA",
+"mentions": 1,
+"time_period": "year",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "TSLA",
+"mentions": 11,
+"time_period": "all",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "AAPL",
+"mentions": 1,
+"time_period": "year",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "AAPL",
+"mentions": 8,
+"time_period": "all",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "TWTR",
+"mentions": 1,
+"time_period": "year",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "TWTR",
+"mentions": 1,
+"time_period": "all",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "year",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "NFLX",
+"mentions": 8,
+"time_period": "all",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "year",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "BABA",
+"mentions": 1,
+"time_period": "all",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "year",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "DIS",
+"mentions": 1,
+"time_period": "all",
+"subreddit": "SecurityAnalysis"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Finance"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Finance"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Finance"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Finance"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "year",
+"subreddit": "Finance"
+},
+{
+"name": "MSFT",
+"mentions": 1,
+"time_period": "all",
+"subreddit": "Finance"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Finance"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Finance"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Finance"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Finance"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "year",
+"subreddit": "Finance"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "all",
+"subreddit": "Finance"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Finance"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Finance"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Finance"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Finance"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "year",
+"subreddit": "Finance"
+},
+{
+"name": "TSLA",
+"mentions": 5,
+"time_period": "all",
+"subreddit": "Finance"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Finance"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Finance"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Finance"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Finance"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "year",
+"subreddit": "Finance"
+},
+{
+"name": "AAPL",
+"mentions": 5,
+"time_period": "all",
+"subreddit": "Finance"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Finance"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Finance"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Finance"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Finance"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "year",
+"subreddit": "Finance"
+},
+{
+"name": "TWTR",
+"mentions": 1,
+"time_period": "all",
+"subreddit": "Finance"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Finance"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Finance"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Finance"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Finance"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "year",
+"subreddit": "Finance"
+},
+{
+"name": "NFLX",
+"mentions": 2,
+"time_period": "all",
+"subreddit": "Finance"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Finance"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Finance"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Finance"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Finance"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "year",
+"subreddit": "Finance"
+},
+{
+"name": "BABA",
+"mentions": 2,
+"time_period": "all",
+"subreddit": "Finance"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Finance"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Finance"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Finance"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Finance"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "year",
+"subreddit": "Finance"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "all",
+"subreddit": "Finance"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "MSFT",
+"mentions": 1,
+"time_period": "week",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "MSFT",
+"mentions": 5,
+"time_period": "month",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "MSFT",
+"mentions": 93,
+"time_period": "year",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "MSFT",
+"mentions": 93,
+"time_period": "all",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "PLTR",
+"mentions": 4,
+"time_period": "day",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "PLTR",
+"mentions": 12,
+"time_period": "week",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "PLTR",
+"mentions": 90,
+"time_period": "month",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "PLTR",
+"mentions": 97,
+"time_period": "year",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "PLTR",
+"mentions": 97,
+"time_period": "all",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "TSLA",
+"mentions": 14,
+"time_period": "week",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "TSLA",
+"mentions": 50,
+"time_period": "month",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "TSLA",
+"mentions": 99,
+"time_period": "year",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "TSLA",
+"mentions": 99,
+"time_period": "all",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "AAPL",
+"mentions": 11,
+"time_period": "month",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "AAPL",
+"mentions": 95,
+"time_period": "year",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "AAPL",
+"mentions": 95,
+"time_period": "all",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "TWTR",
+"mentions": 37,
+"time_period": "year",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "TWTR",
+"mentions": 75,
+"time_period": "all",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "NFLX",
+"mentions": 56,
+"time_period": "year",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "NFLX",
+"mentions": 89,
+"time_period": "all",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "BABA",
+"mentions": 2,
+"time_period": "month",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "BABA",
+"mentions": 81,
+"time_period": "year",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "BABA",
+"mentions": 81,
+"time_period": "all",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "DIS",
+"mentions": 2,
+"time_period": "month",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "DIS",
+"mentions": 62,
+"time_period": "year",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "DIS",
+"mentions": 69,
+"time_period": "all",
+"subreddit": "WallStreetBets"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Options"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Options"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Options"
+},
+{
+"name": "MSFT",
+"mentions": 2,
+"time_period": "month",
+"subreddit": "Options"
+},
+{
+"name": "MSFT",
+"mentions": 43,
+"time_period": "year",
+"subreddit": "Options"
+},
+{
+"name": "MSFT",
+"mentions": 69,
+"time_period": "all",
+"subreddit": "Options"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Options"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Options"
+},
+{
+"name": "PLTR",
+"mentions": 3,
+"time_period": "week",
+"subreddit": "Options"
+},
+{
+"name": "PLTR",
+"mentions": 21,
+"time_period": "month",
+"subreddit": "Options"
+},
+{
+"name": "PLTR",
+"mentions": 93,
+"time_period": "year",
+"subreddit": "Options"
+},
+{
+"name": "PLTR",
+"mentions": 92,
+"time_period": "all",
+"subreddit": "Options"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Options"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Options"
+},
+{
+"name": "TSLA",
+"mentions": 5,
+"time_period": "week",
+"subreddit": "Options"
+},
+{
+"name": "TSLA",
+"mentions": 24,
+"time_period": "month",
+"subreddit": "Options"
+},
+{
+"name": "TSLA",
+"mentions": 93,
+"time_period": "year",
+"subreddit": "Options"
+},
+{
+"name": "TSLA",
+"mentions": 92,
+"time_period": "all",
+"subreddit": "Options"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Options"
+},
+{
+"name": "AAPL",
+"mentions": 2,
+"time_period": "day",
+"subreddit": "Options"
+},
+{
+"name": "AAPL",
+"mentions": 3,
+"time_period": "week",
+"subreddit": "Options"
+},
+{
+"name": "AAPL",
+"mentions": 16,
+"time_period": "month",
+"subreddit": "Options"
+},
+{
+"name": "AAPL",
+"mentions": 88,
+"time_period": "year",
+"subreddit": "Options"
+},
+{
+"name": "AAPL",
+"mentions": 88,
+"time_period": "all",
+"subreddit": "Options"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Options"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Options"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Options"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Options"
+},
+{
+"name": "TWTR",
+"mentions": 10,
+"time_period": "year",
+"subreddit": "Options"
+},
+{
+"name": "TWTR",
+"mentions": 30,
+"time_period": "all",
+"subreddit": "Options"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Options"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Options"
+},
+{
+"name": "NFLX",
+"mentions": 1,
+"time_period": "week",
+"subreddit": "Options"
+},
+{
+"name": "NFLX",
+"mentions": 1,
+"time_period": "month",
+"subreddit": "Options"
+},
+{
+"name": "NFLX",
+"mentions": 29,
+"time_period": "year",
+"subreddit": "Options"
+},
+{
+"name": "NFLX",
+"mentions": 71,
+"time_period": "all",
+"subreddit": "Options"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Options"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Options"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Options"
+},
+{
+"name": "BABA",
+"mentions": 2,
+"time_period": "month",
+"subreddit": "Options"
+},
+{
+"name": "BABA",
+"mentions": 40,
+"time_period": "year",
+"subreddit": "Options"
+},
+{
+"name": "BABA",
+"mentions": 48,
+"time_period": "all",
+"subreddit": "Options"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Options"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Options"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Options"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Options"
+},
+{
+"name": "DIS",
+"mentions": 17,
+"time_period": "year",
+"subreddit": "Options"
+},
+{
+"name": "DIS",
+"mentions": 45,
+"time_period": "all",
+"subreddit": "Options"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Stocks"
+},
+{
+"name": "MSFT",
+"mentions": 1,
+"time_period": "day",
+"subreddit": "Stocks"
+},
+{
+"name": "MSFT",
+"mentions": 1,
+"time_period": "week",
+"subreddit": "Stocks"
+},
+{
+"name": "MSFT",
+"mentions": 11,
+"time_period": "month",
+"subreddit": "Stocks"
+},
+{
+"name": "MSFT",
+"mentions": 83,
+"time_period": "year",
+"subreddit": "Stocks"
+},
+{
+"name": "MSFT",
+"mentions": 83,
+"time_period": "all",
+"subreddit": "Stocks"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Stocks"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Stocks"
+},
+{
+"name": "PLTR",
+"mentions": 2,
+"time_period": "week",
+"subreddit": "Stocks"
+},
+{
+"name": "PLTR",
+"mentions": 6,
+"time_period": "month",
+"subreddit": "Stocks"
+},
+{
+"name": "PLTR",
+"mentions": 97,
+"time_period": "year",
+"subreddit": "Stocks"
+},
+{
+"name": "PLTR",
+"mentions": 96,
+"time_period": "all",
+"subreddit": "Stocks"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Stocks"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Stocks"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Stocks"
+},
+{
+"name": "TSLA",
+"mentions": 8,
+"time_period": "month",
+"subreddit": "Stocks"
+},
+{
+"name": "TSLA",
+"mentions": 93,
+"time_period": "year",
+"subreddit": "Stocks"
+},
+{
+"name": "TSLA",
+"mentions": 93,
+"time_period": "all",
+"subreddit": "Stocks"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Stocks"
+},
+{
+"name": "AAPL",
+"mentions": 1,
+"time_period": "day",
+"subreddit": "Stocks"
+},
+{
+"name": "AAPL",
+"mentions": 2,
+"time_period": "week",
+"subreddit": "Stocks"
+},
+{
+"name": "AAPL",
+"mentions": 16,
+"time_period": "month",
+"subreddit": "Stocks"
+},
+{
+"name": "AAPL",
+"mentions": 95,
+"time_period": "year",
+"subreddit": "Stocks"
+},
+{
+"name": "AAPL",
+"mentions": 95,
+"time_period": "all",
+"subreddit": "Stocks"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Stocks"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Stocks"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Stocks"
+},
+{
+"name": "TWTR",
+"mentions": 1,
+"time_period": "month",
+"subreddit": "Stocks"
+},
+{
+"name": "TWTR",
+"mentions": 19,
+"time_period": "year",
+"subreddit": "Stocks"
+},
+{
+"name": "TWTR",
+"mentions": 62,
+"time_period": "all",
+"subreddit": "Stocks"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Stocks"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Stocks"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Stocks"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "Stocks"
+},
+{
+"name": "NFLX",
+"mentions": 36,
+"time_period": "year",
+"subreddit": "Stocks"
+},
+{
+"name": "NFLX",
+"mentions": 70,
+"time_period": "all",
+"subreddit": "Stocks"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Stocks"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Stocks"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Stocks"
+},
+{
+"name": "BABA",
+"mentions": 2,
+"time_period": "month",
+"subreddit": "Stocks"
+},
+{
+"name": "BABA",
+"mentions": 84,
+"time_period": "year",
+"subreddit": "Stocks"
+},
+{
+"name": "BABA",
+"mentions": 84,
+"time_period": "all",
+"subreddit": "Stocks"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "Stocks"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "Stocks"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "Stocks"
+},
+{
+"name": "DIS",
+"mentions": 8,
+"time_period": "month",
+"subreddit": "Stocks"
+},
+{
+"name": "DIS",
+"mentions": 68,
+"time_period": "year",
+"subreddit": "Stocks"
+},
+{
+"name": "DIS",
+"mentions": 70,
+"time_period": "all",
+"subreddit": "Stocks"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "StockMarket"
+},
+{
+"name": "MSFT",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "StockMarket"
+},
+{
+"name": "MSFT",
+"mentions": 1,
+"time_period": "week",
+"subreddit": "StockMarket"
+},
+{
+"name": "MSFT",
+"mentions": 3,
+"time_period": "month",
+"subreddit": "StockMarket"
+},
+{
+"name": "MSFT",
+"mentions": 15,
+"time_period": "year",
+"subreddit": "StockMarket"
+},
+{
+"name": "MSFT",
+"mentions": 28,
+"time_period": "all",
+"subreddit": "StockMarket"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "StockMarket"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "StockMarket"
+},
+{
+"name": "PLTR",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "StockMarket"
+},
+{
+"name": "PLTR",
+"mentions": 3,
+"time_period": "month",
+"subreddit": "StockMarket"
+},
+{
+"name": "PLTR",
+"mentions": 33,
+"time_period": "year",
+"subreddit": "StockMarket"
+},
+{
+"name": "PLTR",
+"mentions": 33,
+"time_period": "all",
+"subreddit": "StockMarket"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "StockMarket"
+},
+{
+"name": "TSLA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "StockMarket"
+},
+{
+"name": "TSLA",
+"mentions": 1,
+"time_period": "week",
+"subreddit": "StockMarket"
+},
+{
+"name": "TSLA",
+"mentions": 7,
+"time_period": "month",
+"subreddit": "StockMarket"
+},
+{
+"name": "TSLA",
+"mentions": 59,
+"time_period": "year",
+"subreddit": "StockMarket"
+},
+{
+"name": "TSLA",
+"mentions": 67,
+"time_period": "all",
+"subreddit": "StockMarket"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "StockMarket"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "StockMarket"
+},
+{
+"name": "AAPL",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "StockMarket"
+},
+{
+"name": "AAPL",
+"mentions": 9,
+"time_period": "month",
+"subreddit": "StockMarket"
+},
+{
+"name": "AAPL",
+"mentions": 38,
+"time_period": "year",
+"subreddit": "StockMarket"
+},
+{
+"name": "AAPL",
+"mentions": 51,
+"time_period": "all",
+"subreddit": "StockMarket"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "StockMarket"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "StockMarket"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "StockMarket"
+},
+{
+"name": "TWTR",
+"mentions": 0,
+"time_period": "month",
+"subreddit": "StockMarket"
+},
+{
+"name": "TWTR",
+"mentions": 1,
+"time_period": "year",
+"subreddit": "StockMarket"
+},
+{
+"name": "TWTR",
+"mentions": 59,
+"time_period": "all",
+"subreddit": "StockMarket"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "StockMarket"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "StockMarket"
+},
+{
+"name": "NFLX",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "StockMarket"
+},
+{
+"name": "NFLX",
+"mentions": 2,
+"time_period": "month",
+"subreddit": "StockMarket"
+},
+{
+"name": "NFLX",
+"mentions": 7,
+"time_period": "year",
+"subreddit": "StockMarket"
+},
+{
+"name": "NFLX",
+"mentions": 60,
+"time_period": "all",
+"subreddit": "StockMarket"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "StockMarket"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "StockMarket"
+},
+{
+"name": "BABA",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "StockMarket"
+},
+{
+"name": "BABA",
+"mentions": 1,
+"time_period": "month",
+"subreddit": "StockMarket"
+},
+{
+"name": "BABA",
+"mentions": 11,
+"time_period": "year",
+"subreddit": "StockMarket"
+},
+{
+"name": "BABA",
+"mentions": 20,
+"time_period": "all",
+"subreddit": "StockMarket"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "hour",
+"subreddit": "StockMarket"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "day",
+"subreddit": "StockMarket"
+},
+{
+"name": "DIS",
+"mentions": 0,
+"time_period": "week",
+"subreddit": "StockMarket"
+},
+{
+"name": "DIS",
+"mentions": 2,
+"time_period": "month",
+"subreddit": "StockMarket"
+},
+{
+"name": "DIS",
+"mentions": 10,
+"time_period": "year",
+"subreddit": "StockMarket"
+},
+{
+"name": "DIS",
+"mentions": 30,
+"time_period": "all",
+"subreddit": "StockMarket"
+}
+]
+}
