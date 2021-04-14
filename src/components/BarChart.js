@@ -12,6 +12,8 @@ defaults.global.legend.position = 'bottom'
 
 const ticks = data;
 
+const test = "yes this works";
+
 // const sub_names = ['Investing', 'SecurityAnalysis', 'Finance', 'WallStreetBets', 'Options', 'Stocks', 'StockMarket'];
 // const time_filters_list = ['hour','day','week','month','year','all'];
 
@@ -38,10 +40,6 @@ class BarChart extends React.Component {
     this.change3 = this.change3.bind(this);
     this.change4 = this.change4.bind(this);
   }
-
-  // filter_mongodb_arr() {
-  //   ti
-  // }
 
   componentDidMount() {
     this.getDataFromDb();
