@@ -4,26 +4,33 @@ import data from "../ticker_data.json"
 
 import '../Chart.css' 
 
+import App from '../App.js'
+
 
 defaults.global.tooltips.enabled = false
 defaults.global.legend.position = 'bottom'
 
 const ticks = data;
-const sub_names = ['Investing', 'SecurityAnalysis', 'Finance', 'WallStreetBets', 'Options', 'Stocks', 'StockMarket'];
-const time_filters_list = ['hour','day','week','month','year','all'];
+
+// const sub_names = ['Investing', 'SecurityAnalysis', 'Finance', 'WallStreetBets', 'Options', 'Stocks', 'StockMarket'];
+// const time_filters_list = ['hour','day','week','month','year','all'];
 
 class BarChart extends React.Component {
 
-  sub = sub_names[3];
-  time = time_filters_list[5];
+  // sub = sub_names[3];
+  // time = time_filters_list[5];
 
   constructor(props) {
     super(props);
     this.state = {
+      mongodb_data: [],
+      filtered_mongodb_data: [],
       data_arr: [],
-      label_arr: ["MSFT", "PLTR", "TSLA", "AAPL", "TWTR", "NFLX", "BABA", "DIS"],
-      sub_name: "",
-      sub_time_period: ""
+      intervalIsSet: false,
+      label_arr: ["MSFT", "PLTR", "TSLA", "AAPL", "TWTR", "NFLX", "BABA", "DIS", "AMC",
+                  "GME", "NIO", "SNDL", "AMZN"],
+      sub_name: "WallStreetBets",
+      sub_time_period: "Today"
     }
     this.change0 = this.change0.bind(this);
     this.change1 = this.change1.bind(this);
@@ -32,26 +39,55 @@ class BarChart extends React.Component {
     this.change4 = this.change4.bind(this);
   }
 
+  // filter_mongodb_arr() {
+  //   ti
+  // }
+
   componentDidMount() {
+    this.getDataFromDb();
+    if (!this.state.intervalIsSet) {
+      let interval = setInterval(this.getDataFromDb, 1000);
+      this.setState({ intervalIsSet: interval });
+    }
+    // console.log(this.state.data_arr);
     this.change1();
+    
   }
+
+  componentWillUnmount() {
+    if (this.state.intervalIsSet) {
+      clearInterval(this.state.intervalIsSet);
+      this.setState({ intervalIsSet: null });
+    }
+  }
+
+  getDataFromDb = () => {
+    fetch('http://localhost:3001/api/getData')
+      .then((data) => data.json())
+      .then((res) => this.setState({ mongodb_data: res.data }))
+  }
+
+  // initialChange() {
+  //   this.setState({ })
+  // }
 
   change0() {
     var res = getSubAndTime("Investing", "all");
     this.setState({ data_arr: res[2] , sub_name: res[0], sub_time_period: res[1] })
-    console.log(res[0]);
+    // console.log(res[0]);
   }
 
   change1() {
     var res = getSubAndTime("WallStreetBets", "all");
     this.setState({ data_arr: res[2] , sub_name: res[0], sub_time_period: res[1] })
-    console.log(res[0]);
+    // console.log(res[0]);
+    // console.log(this.state.mongodb_data);
   }
 
   change2() {
     var res = getSubAndTime("Stocks", "all");
     this.setState({ data_arr: res[2] , sub_name: res[0], sub_time_period: res[1] })
-    console.log(res[0]);
+    // console.log(res[0]);
   }
 
   change3() {
@@ -69,15 +105,22 @@ class BarChart extends React.Component {
   }
   
   render() {
+    if (this.state.mongodb_data.length != 0) {
+      var new_data_arr = new Array(13);
+      for (var i = 0; i < this.state.mongodb_data.length; i++) {
+        new_data_arr[i] = this.state.mongodb_data[i].count;
+      }
+      // console.log(new_data_arr);
+    }
     return (
-      <div>
+      <div id='bar_chart'>
         <Bar
           data={{
             labels: this.state.label_arr,
             datasets: [
               {
                 label: '# of Mentions',
-                data: this.state.data_arr,
+                data: new_data_arr,
                 backgroundColor: [
                   'rgba(255, 99, 132, 0.2)',
                   'rgba(54, 162, 235, 0.2)',
@@ -85,6 +128,25 @@ class BarChart extends React.Component {
                   'rgba(75, 192, 192, 0.2)',
                   'rgba(153, 102, 255, 0.2)',
                   'rgba(255, 159, 64, 0.2)',
+                  'rgba(255, 99, 132, 0.2)',
+                  'rgba(255, 159, 64, 0.2)',
+                  'rgba(255, 205, 86, 0.2)',
+                  'rgba(75, 192, 192, 0.2)',
+                  'rgba(54, 162, 235, 0.2)',
+                  'rgba(153, 102, 255, 0.2)',
+                  'rgba(201, 203, 207, 0.2)',
+                  'rgba(255, 99, 132, 0.2)',
+                  'rgba(54, 162, 235, 0.2)',
+
+                ],
+                borderColor: [
+                  'rgb(255, 99, 132)',
+                  'rgb(255, 159, 64)',
+                  'rgb(255, 205, 86)',
+                  'rgb(75, 192, 192)',
+                  'rgb(54, 162, 235)',
+                  'rgb(153, 102, 255)',
+                  'rgb(201, 203, 207)'
                 ],
                 borderWidth: 1,
               },
@@ -94,10 +156,14 @@ class BarChart extends React.Component {
           width={600}
           options={{
             maintainAspectRatio: true,
+            tooltips: {
+              enabled: true,
+              mode: 'index'
+            },
             responsive: false,
             title: {
               display: true,
-              text: "r/" + this.state.sub_name + " (" + this.state.sub_time_period + ")",
+              text: "r/" + this.state.sub_name + " (Today)",
               fontSize: 25
             },
             scales: {
@@ -116,61 +182,9 @@ class BarChart extends React.Component {
               },
             },
           }}
-        />
-
-        {/* <button onClick={this.change0}>Investing/all</button>
-        <button onClick={this.change1}>WallStreetBets/all</button>
-        <button onClick={this.change2}>Stocks/all</button>
+        /> 
         <br></br>
         <br></br>
-
-        <form>
-          <label htmlFor="sub_name">Subreddit: </label><br></br>
-          <input type="text" id="sub_name" name="sub_name" defaultValue="Investing"></input><br></br>
-          <label htmlFor="time_period">Time Period: </label><br></br>
-          <input type="text" id="time_period" name="time_period" defaultValue="all"></input><br></br>
-          <button id="submit_button" type="button" onClick={this.change3}></button>
-        </form> */}
-
-        <br></br>
-        <br></br>
-
-        <form id="drop_down_form"> 
-
-
-
-          <div id="choose_sub" >
-
-          <label htmlFor="sub_options">Choose a subreddit: </label>
-          <select id="sub_options" name="sub_options">
-            <option value="Investing">Investing</option>
-            <option value="SecurityAnalysis">SecurityAnalysis</option>
-            <option value="Finance">Finance</option>
-            <option value="WallStreetBets">WallStreetBets</option>
-            <option value="Options">Options</option>
-            <option value="Stocks">Stocks</option>
-            <option value="StockMarket">StockMarket</option>
-          </select>
-          </div>
-
-
-          <div id="choose_time" >
-          <label htmlFor="time_options">Choose a time period: </label>
-          <select id="time_options" name="time_options">
-            <option value="hour">Hour</option>
-            <option value="day">Day</option>
-            <option value="week">Week</option>
-            <option value="month">Month</option>
-            <option value="year">Year</option>
-            <option value="all">All</option>
-          </select>
-          </div>
-          
-
-
-          <button id="submit_button" type="button" onClick={this.change4}>Rerender</button>
-        </form>
-
       </div>
     )    
   }
