@@ -12,8 +12,6 @@ defaults.global.legend.position = 'bottom'
 
 const ticks = data;
 
-const test = "yes this works";
-
 // const sub_names = ['Investing', 'SecurityAnalysis', 'Finance', 'WallStreetBets', 'Options', 'Stocks', 'StockMarket'];
 // const time_filters_list = ['hour','day','week','month','year','all'];
 
