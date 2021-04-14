@@ -109,13 +109,13 @@ class BarChart extends React.Component {
       // console.log(new_data_arr);
     }
     return (
-      <div id='bar_chart'>
-        <Bar
+      <div>
+        <Bar class="my_bar" 
           data={{
             labels: this.state.label_arr,
             datasets: [
               {
-                label: '# of Mentions',
+                label: 'Tickers',
                 data: new_data_arr,
                 backgroundColor: [
                   'rgba(255, 99, 132, 0.2)',
@@ -151,6 +151,9 @@ class BarChart extends React.Component {
           height={400}
           width={600}
           options={{
+            legend: {
+              display: false
+            },
             maintainAspectRatio: true,
             tooltips: {
               enabled: true,
@@ -160,11 +163,25 @@ class BarChart extends React.Component {
             title: {
               display: true,
               text: "r/" + this.state.sub_name + " (Today)",
-              fontSize: 25
+              fontSize: 25,
+              fontFamily: 'Cambria',
+              fontColor: 'black'
             },
             scales: {
+              xAxes: [
+                {
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'Tickers'
+                  }
+                }
+              ],
               yAxes: [
                 {
+                  scaleLabel: {
+                    display: true,
+                    labelString: '# Mentions',
+                  },
                   ticks: {
                     beginAtZero: true,
                   },
@@ -174,13 +191,14 @@ class BarChart extends React.Component {
             legend: {
               labels: {
                 boxWidth: 0,
-                fontSize: 15,
+                fontSize: 0,
               },
             },
           }}
         /> 
-        <br></br>
-        <br></br>
+        <p> Tool for keeping track of how many times a ticker has been mentioned on the 
+          r/WallStreetBets subreddit today.
+        </p>
       </div>
     )    
   }

@@ -13,44 +13,13 @@ class App extends Component {
     intervalIsSet: false,
   };
 
-  componentDidMount() {
-    this.getDataFromDb();
-    if (!this.state.intervalIsSet) {
-      let interval = setInterval(this.getDataFromDb, 1000);
-      this.setState({ intervalIsSet: interval });
-    }
-  }
-
-  componentWillUnmount() {
-    if (this.state.intervalIsSet) {
-      clearInterval(this.state.intervalIsSet);
-      this.setState({ intervalIsSet: null });
-    }
-  }
-
-  getDataFromDb = () => {
-    fetch('http://localhost:3001/api/getData')
-      .then((data) => data.json())
-      .then((res) => this.setState({ data: res.data })); 
-  };
-
   render() {
     return (
       <div>
-        <BarChart />
+        <BarChart class="big_bar"/>
       </div>
     )
   }
-
-
 }
-
-// const App = () => {
-//   return (
-//     <div>
-//       <BarChart />
-//     </div>
-//   )
-// }
 
 export default App

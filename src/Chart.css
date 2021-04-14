@@ -27,6 +27,19 @@
     margin-left: 15px;
 }
 
-#BarChart {
+#main_chart {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+canvas {
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255,69,1);
 }
