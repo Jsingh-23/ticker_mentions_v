@@ -1,8 +1,8 @@
 Tool for keeping track of how many times a ticker has been mentioned on the r/WallStreetBets subreddit today. 
 
-
-Possible issues : 
-  need to start backend and frontend together
+App can be started by navigating to project root and running,
+  node ./backend/server.js
   
+  AND
   
-  https://dev.to/lawrence_eagles/causes-of-heroku-h10-app-crashed-error-and-how-to-solve-them-3jnl
+  npm run devstart
